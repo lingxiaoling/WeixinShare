@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='javascripts/jquery.js'></script>
+    <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+    <style>
+	#out{
+		border: 3px solid #000;
+		height: 400px;
+		width: 400px;
+		overflow: auto;
+	}
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome 11to <%= title %></p>
+    <div id="out">
+	<ul id="outText">
+
+	</ul>
+    </div>
+    <input id="textIn" />
+    <button class="toshare">我要分享</button>
+    <script src='javascripts/index.js'></script>
+  </body>
+</html>

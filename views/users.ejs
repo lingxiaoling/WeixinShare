@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script src='javascripts/jquery.js'></script>
+    <script src='http://127.0.0.1:3000/socket.io/socket.io.js'></script>
+    <style>
+	#out{
+		border: 3px solid #000;
+		height: 400px;
+		width: 400px;
+		overflow: auto;
+	}
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome 11to <%= title %></p>
+    <div id="out">
+	<ul id="outText">
+
+	</ul>
+    </div>
+    <input id="textIn" />
+    <script src='javascripts/users.js'></script>
+  </body>
+</html>
